@@ -1,4 +1,4 @@
-//css update
+//css update 
 const d = new Date();
 let time = d.getTime();
 document.getElementById("css").setAttribute("href","css/style.css?v=" + time);
