@@ -14,7 +14,7 @@ if (passwordPassed>-1){
 } else {
 	const setPWD = prompt("JELSZÓ:", "");
 		if(setPWD === "h@rminc"){
-		  d.setTime(d.getTime() + (24*60*60*1000));
+		  d.setTime(d.getTime() + (60*60*1000));
 		  let expires = "expires="+ d.toUTCString();
 		  document.cookie = "dcAuth=1; " + expires + ";path=/";
 		  document.cookie = "consent=1; " + expires + ";path=/";
