@@ -1,1 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{color:#3E3D3D;font-family: "Manrope", sans-serif;}
+nav{z-index: 10;width: 100%;}
 .mw-50{max-width: 50%;}
+.dm-serif {font-family: "DM Serif Text", serif; font-weight: 400; font-style: normal; }
+.dm-serif-italic {font-family: "DM Serif Text", serif; font-weight: 400; font-style: italic; }
+.mb-n6 {margin-bottom: -4rem!important;}
+nav:focus{background: white!important}
+.text-dc{color: #013C71!important;}
+.bg-dc{background-color: #013C71!important;}
+.border-dc{border-color: #013C71!important;}
+.bg-dc-dark{background: url('/diamond-congress-30/img/dark-background.jpg');background-size: cover;}
+.bg-infographic{background: url('/diamond-congress-30/img/info-bg.jpg');background-size: cover;background-position: top right;}
+.drop-shadow{filter: drop-shadow(0px 3px 6px black);}
+.after-plus:after {content: "+"; position: relative; width: 1em; height: 1em; background: #013C71; color: white; border-radius: 100%; display: block; text-align: center; font-size: 3em; line-height: 1em; margin: .5em auto -1.5em; }
+
+@media(min-width:768px){
+ #headerText{position:absolute;left: 50%; top:50%;transform: translate(-50%,-30%);}
+}
+
+@media(max-width:767px){
+ #headerText{margin-top: -30vw;}
+ #headerText img {width: 40%!important;}
+}
+
+@media(min-width:576px) and (max-width:992px){
+ #headerText .h2 {font-size: 1.6em;}
+ #headerText{font-size: 80%;line-height: 1.2em;}
+}
