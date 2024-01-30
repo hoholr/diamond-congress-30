@@ -1,4 +1,4 @@
-//css update 
+//css update
 const d = new Date();
 let time = d.getTime();
 document.getElementById("css").setAttribute("href","css/style.css?v=" + time);
@@ -31,3 +31,7 @@ function logout(){
 	  document.cookie = "consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 	  location.reload();
 }
+
+$(".navbar-toggler").click(function() {
+	$("nav").toggleClass("navbar-light navbar-dark bg-light");
+})
